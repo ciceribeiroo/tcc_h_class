@@ -128,20 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-b5/genero
-b5/particoes
-b5/idade
-b5/b5_post_concat.csv
-
-blogset-br/4300Answers.csv
-blogset-br/particoes
-blogset-br/blogset-br-texts.csv
-blogset-br/blogset-br.csv.gz
-blogset-br/blogset-br.csv
-blogset-br/blogset-duplicate.csv
-blogset-br/blogset-without-duplicate.csv
-
-brmoral/brMoral.csv
-brmoral/genero
-brmoral/particoes
-brmoral/idade
+particoes/
+bases/b5/b5_post_concat.csv
+bases/BlogsetBR/4300Answers.csv
+bases/BlogsetBR/blogset-br.csv.gz
+bases/BlogsetBR/blogset-duplicate.csv
+bases/BlogsetBR/blogset-without-duplicate.csv
+bases/brMoral/brMoral.csv
