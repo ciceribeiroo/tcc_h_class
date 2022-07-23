@@ -17,73 +17,73 @@
     },
     "k_1": {
         "params": {
-            "C": 0.001,
-            "penalty": "none"
+            "C": 100.0,
+            "penalty": "l2"
         },
-        "accuracy": 0.5610281138996308
+        "accuracy": 0.5931831706546113
     },
     "k_2": {
         "params": {
             "C": 100.0,
             "penalty": "l2"
         },
-        "accuracy": 0.5874957137282484
+        "accuracy": 0.6093842145508812
     },
     "k_3": {
         "params": {
             "C": 0.001,
             "penalty": "none"
         },
-        "accuracy": 0.6249895860982818
+        "accuracy": 0.5620592628955128
     },
     "k_4": {
         "params": {
-            "C": 0.001,
-            "penalty": "none"
+            "C": 100.0,
+            "penalty": "l2"
         },
-        "accuracy": 0.5677080254489731
+        "accuracy": 0.5870437558756982
     },
     "k_5": {
         "params": {
-            "C": 100.0,
+            "C": 1000.0,
             "penalty": "l2"
         },
-        "accuracy": 0.595171782167071
+        "accuracy": 0.5857407607548272
     },
     "k_6": {
         "params": {
-            "C": 100.0,
+            "C": 1000.0,
             "penalty": "l2"
         },
-        "accuracy": 0.6129131343223414
+        "accuracy": 0.5796899568535275
     },
     "k_7": {
+        "params": {
+            "C": 1000.0,
+            "penalty": "l2"
+        },
+        "accuracy": 0.6040145665644387
+    },
+    "k_8": {
         "params": {
             "C": 0.001,
             "penalty": "none"
         },
-        "accuracy": 0.581250388434397
-    },
-    "k_8": {
-        "params": {
-            "C": 100.0,
-            "penalty": "l2"
-        },
-        "accuracy": 0.5850422410315621
+        "accuracy": 0.5867011326020614
     },
     "k_9": {
         "params": {
             "C": 0.001,
             "penalty": "none"
         },
-        "accuracy": 0.6242117216575422
+        "accuracy": 0.5904703279176964
     },
     "k_10": {
         "params": {
-            "C": 1000.0,
-            "penalty": "l2"
+            "C": 0.001,
+            "penalty": "none"
         },
-        "accuracy": 0.5773436320637828
+        "accuracy": 0.5805222735018132
     },
-    "time": "3.0min51.41s"
+    "time": "4.0min27.33s"
 }
