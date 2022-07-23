@@ -1,0 +1,63 @@
+{
+    "grid_values": {
+        "filters" : [[60], [100]],
+        "kernel_size" : [[1], [3], [5]],
+        "strides" : [[1], [2],[4]],
+        "dropout_rate" : [0.1,0.4,0.6],
+        "pool_size" : [[4,2],[4],[8,2],[8]],
+        "epochs" : [1, 10],
+        "batch_size" : [32, 64]
+    },
+    "genero": {
+        "params": {
+            "batch_size": 64,
+	        "dropout_rate": 0.1,
+	        "epochs": 10,
+	        "filters": [60],
+	        "kernel_size": [1],
+	        "pool_size": [4],
+	        "strides": [1]
+        },
+        "f1": 0.728893797260978,
+        "time": "75h34min1.7s"
+    },
+    "idade": {
+        "params": {
+            "batch_size": 32,
+	        "dropout_rate": 0.6,
+	        "epochs": 10,
+	        "filters": [60],
+	        "kernel_size": [5],
+	        "pool_size": [8, 2],
+	        "strides": [4]
+        },
+        "f1": 0.4535416477980448,
+        "time": "74h43min78.8s"
+    },
+    "feminino": {
+        "params": {
+            "batch_size": 32,
+	        "dropout_rate": 0.6,
+	        "epochs": 10,
+	        "filters": [60],
+	        "kernel_size": [1],
+	        "pool_size": [4, 2],
+	        "strides": [2]
+        },
+        "f1": 0.47766647032443615,
+        "time": "23h26min4.4s"
+    },
+    "masculino": {
+        "params": {
+            "batch_size": 32,
+	        "dropout_rate": 0.6,
+	        "epochs": 10,
+	        "filters": [60],
+	        "kernel_size": [1],
+	        "pool_size": [4],
+	        "strides": [1]
+        },
+        "f1": 0.44442063296605705,
+        "time": "54h42min42.9s"
+    }
+}
