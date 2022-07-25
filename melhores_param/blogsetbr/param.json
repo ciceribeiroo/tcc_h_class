@@ -8,7 +8,7 @@
         "epochs" : [1, 10],
         "batch_size" : [32, 64]
     },
-    "genero": {
+    "gender": {
         "params": {
             "batch_size": 64,
 	        "dropout_rate": 0.1,
@@ -21,7 +21,7 @@
         "f1": 0.728893797260978,
         "time": "75h34min1.7s"
     },
-    "idade": {
+    "age": {
         "params": {
             "batch_size": 32,
 	        "dropout_rate": 0.6,
@@ -34,7 +34,7 @@
         "f1": 0.4535416477980448,
         "time": "74h43min78.8s"
     },
-    "feminino": {
+    "age/fem": {
         "params": {
             "batch_size": 32,
 	        "dropout_rate": 0.6,
@@ -47,7 +47,7 @@
         "f1": 0.47766647032443615,
         "time": "23h26min4.4s"
     },
-    "masculino": {
+    "age/masc": {
         "params": {
             "batch_size": 32,
 	        "dropout_rate": 0.6,
